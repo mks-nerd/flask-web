@@ -8,4 +8,4 @@ def index():
     return 'Home'
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5000)
